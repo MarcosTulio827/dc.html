@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #151515;
+    color: #fff;
+    position: relative; 
+}
+
+header {
+    background-color: #03264e;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #fff;
+}
+
+.intro {
+    padding: 50px;
+    text-align: center;
+}
+
+.intro h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #03264e;
+}
+
+.intro p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer-image {
+    background-image: url('https://wallpapers.com/images/hd/dc-background-sokgd1tnp5c3utre.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+}
+
+footer {
+    background-color: #03264e;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #fff;
+}
