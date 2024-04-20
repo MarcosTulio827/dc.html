@@ -1,15 +1,17 @@
-
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Arial Black", Arial, sans-serif; 
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column; /* Define a direção do layout como coluna */
-    min-height: 100vh; /* Garante que o conteúdo ocupe pelo menos toda a altura da tela */
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('https://cdn.shopify.com/s/files/1/0033/3434/0723/collections/dc-comics-banner.jpg?v=1684993432'); 
+    background-size: cover;
+    background-position: center;
 }
 
 header {
-    background-color: #333;
+    background-color: #03264e; /* Cor azul da DC Comics */
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -38,11 +40,11 @@ nav ul li a {
 .intro {
     padding: 50px;
     text-align: center;
-    flex-grow: 1; /* Permite que a seção de introdução ocupe o espaço restante vertical */
+    flex-grow: 1;
 }
 
 footer {
-    background-color: #333;
+    background-color: #03264e; /* Cor azul da DC Comics */
     color: #fff;
     padding: 20px;
     text-align: center;
