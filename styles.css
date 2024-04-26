@@ -2,7 +2,7 @@ body {
     font-family: "Arial Black", Arial, sans-serif; 
     margin: 0;
     padding: 0;
-    display: grid;
+    display: flex;
     flex-direction: column;
     min-height: 100vh;
     background-image: url('https://cdn.shopify.com/s/files/1/0033/3434/0723/collections/dc-comics-banner.jpg?v=1684993432'); 
